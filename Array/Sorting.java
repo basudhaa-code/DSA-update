@@ -41,9 +41,9 @@ class SortingAlgorithm {
 
     public void BubbleSort(int arr[], int size){
         for(int i=0; i<n; i++){
-            for(int j=0; j<n-i-1; j++){
+            for(int j=0; j<n-i-1;g j++){
                 if (arr[j] > arr[j + 1]) {
-                    // swap
+                    
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -77,6 +77,7 @@ public class Sorting {
         System.out.println("Sorted Array: ");
 
         SortingAlgorithm obj = new SortingAlgorithm();
+
 
         obj.BubbleSort(obj.arr, n);
         System.out.println("\nArray after sorting:");
