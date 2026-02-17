@@ -67,7 +67,7 @@ class StackOperation{
         return false;
     }
 
-    void Push(int x ){
+    void Push(int x  ){
         ListOperation lt = new ListOperation();
         lt.insertBeg(x);
     }
